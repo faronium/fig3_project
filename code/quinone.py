@@ -402,7 +402,7 @@ fig.add_hrect(
 # #Add colour zone for risk of morbidity to adult salmon
 fig.add_hrect(
     y0=95, 
-    y1=150, 
+    y1=105, 
     annotation_text="risk to juvenile and adult salmon",
     annotation_position="bottom left",
     fillcolor="red",

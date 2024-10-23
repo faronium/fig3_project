@@ -2,6 +2,10 @@
 
 The code for answering question 3 in the written assignment was written in python. It uses a virtual environment to control packages and package versions to make sure that running is consistent across platforms. This readme walks through the steps to set up the environment and run the code.
 
+### Clone the repository
+
+git clone git@github.com:faronium/fig3_project
+
 ### Make a virtual environment
 
 First, a virtual environment has to be made. This is done in the project root directory with
@@ -18,6 +22,8 @@ Enter the environment with
 source env/bin/activate
 ```
 
+### Install packages
+
 Upgrade pip
 
 ```bash
@@ -29,6 +35,8 @@ Install the python packages using the package list in the file requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
+
+### Setup the directories
 
 Make a couple of directories that are needed for data that will be downloaded and for the figure output
 
