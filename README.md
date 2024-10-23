@@ -4,7 +4,9 @@ The code for answering question 3 in the written assignment was written in pytho
 
 ### Clone the repository
 
+```bash
 git clone git@github.com:faronium/fig3_project
+```
 
 ### Make a virtual environment
 
